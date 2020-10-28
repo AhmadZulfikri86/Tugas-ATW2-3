@@ -189,7 +189,7 @@
                         <div class="col-lg-6 col-md-6">
                             <div class="top_right text-right">
                                 <ul>
-                                   <li><a href="{{url("/register")}}">Register</a></li> 
+                                   <li><a href="{{url("/login")}}">Register</a></li> 
                                    <li><a href="{{url("/checkout")}}">Checkout</a></li> 
                                 </ul>
                             </div>   
