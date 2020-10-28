@@ -299,7 +299,7 @@
                                                 <li><a href="privacy-policy.html">privacy policy</a></li>
                                                 <li><a href="faq.html">Frequently Questions</a></li>
                                                 <li><a href="login.html">login</a></li>
-                                                <li><a href="register.html">register</a></li>
+                                                <li><a href="{{url("/home")}}">register</a></li>
                                                 <li><a href="forget-password.html">Forget Password</a></li>
                                                 <li><a href="404.html">Error 404</a></li>
                                                 <li><a href="cart.html">cart</a></li>
@@ -371,7 +371,7 @@
                                             <label for="checkbox">Remember me</label>
                                         </div>
                                         <div class="single-acc-field">
-                                            <button type="submit">Login Account</button>
+                                            <button> <a href="{{url("template")}}">Login Acoount</a>
                                         </div>
                                         <a href="forget-password.html">Forget Password?</a>
                                         <a href="register.html">Not Account Yet?</a>
