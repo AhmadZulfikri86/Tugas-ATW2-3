@@ -10,7 +10,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Dashboard</title>
+    <title>Kalender</title>
 
     <!-- Fontfaces CSS-->
     <link href="dist/css/font-face.css" rel="stylesheet" media="all">
