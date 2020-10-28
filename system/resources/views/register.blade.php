@@ -371,7 +371,7 @@
                                             <label for="checkbox">Remember me</label>
                                         </div>
                                         <div class="single-acc-field">
-                                            <button> <a href="{{url("template")}}">Login Acoount</a>
+                                         <a href="{{url("template")}}">Login Admin</a> <br>
                                         </div>
                                         <a href="forget-password.html">Forget Password?</a>
                                         <a href="register.html">Not Account Yet?</a>
