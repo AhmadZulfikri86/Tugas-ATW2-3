@@ -189,7 +189,7 @@
                         <div class="col-lg-6 col-md-6">
                             <div class="top_right text-right">
                                 <ul>
-                                   <li><a href="{{url("/register")}}">register</a></li> 
+                                   <li><a href="{{url("/register")}}">Login Admin</a></li> 
                                    <li><a href="{{url("/checkout")}}">Checkout</a></li> 
                                 </ul>
                             </div>   
@@ -299,7 +299,7 @@
                                                 <li><a href="privacy-policy.html">privacy policy</a></li>
                                                 <li><a href="faq.html">Frequently Questions</a></li>
                                                 <li><a href="login.html">login</a></li>
-                                                <li><a href="register.html">register</a></li>
+                                                <li><a href="register.html">Login Admin</a></li>
                                                 <li><a href="forget-password.html">Forget Password</a></li>
                                                 <li><a href="404.html">Error 404</a></li>
                                                 <li><a href="cart.html">cart</a></li>
