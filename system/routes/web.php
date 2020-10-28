@@ -40,3 +40,23 @@ Route::get('/kontak', function () {
 Route::get('/checkout', function () {
     return view('checkout');
 });
+Route::get('/template', function () {
+    return view('template.base');
+});
+
+Route::get('/chart', function () {
+    return view('chart');
+});
+Route::get('/table', function () {
+    return view('table');
+});
+Route::get('/form', function () {
+    return view('form');
+});
+Route::get('/kalender', function () {
+    return view('kalender');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
