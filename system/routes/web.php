@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\ Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,46 +17,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/detailproduk1', function () {
-    return view('detailproduk1');
-});
+Route::get('/detailproduk1', [HomeController::class, 'showdetailproduk1']);
+Route::get('/home', [HomeController::class, 'showhome']);
+Route::get('/register', [HomeController::class, 'showregister']);
+Route::get('/produk', [HomeController::class, 'showproduk']);
+Route::get('/kontak', [HomeController::class, 'showkontak']);
+Route::get('/checkout', [HomeController::class, 'showcheckout']);
+Route::get('/template', [HomeController::class, 'showtemplate']);
+Route::get('/chart', [HomeController::class, 'showchart']);
+Route::get('/tabel', [HomeController::class, 'showtabel']);
+Route::get('/form', [HomeController::class, 'showform']);
+Route::get('/kalender', [HomeController::class, 'showkalender']);
+Route::get('/login', [HomeController::class, 'showlogin']);
 
-Route::get('/home', function () {
-    return view('home');
-});
-
-Route::get('/register', function () {
-    return view('register');
-});
-
-Route::get('/produk', function () {
-    return view('produk');
-});
-
-Route::get('/kontak', function () {
-    return view('kontak');
-});
-
-Route::get('/checkout', function () {
-    return view('checkout');
-});
-Route::get('/template', function () {
-    return view('template.base');
-});
-
-Route::get('/chart', function () {
-    return view('chart');
-});
-Route::get('/table', function () {
-    return view('table');
-});
-Route::get('/form', function () {
-    return view('form');
-});
-Route::get('/kalender', function () {
-    return view('kalender');
-});
-
-Route::get('/login', function () {
-    return view('login');
-});
